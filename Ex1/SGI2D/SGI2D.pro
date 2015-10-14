@@ -18,14 +18,16 @@ SOURCES +=\
     Main.cpp \
     Linha2D.cpp \
     Matriz.cpp \
-    ObjetoGrafico.cpp \
-    Window.cpp
+    Window.cpp \
+    Desenhavel.cpp \
+    Viewport.cpp
 
 HEADERS  += JanelaPrincipal.h \
     Ponto2D.h \
     Linha2D.h \
     Matriz.h \
-    ObjetoGrafico.h \
-    Window.h
+    Window.h \
+    Desenhavel.h \
+    Viewport.h
 
 FORMS    += janelaprincipal.ui
